@@ -1,0 +1,105 @@
+                * {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                body {
+                    margin: 0px;
+                    padding: 0px;
+                    background-color: hsl(218, 28%, 13%) !important;
+                    color: white !important;
+                    overflow-x: hidden;
+                }
+                
+                header {
+                    padding: 30px;
+                }
+                
+                header img {
+                    margin-left: 90px;
+                    width: 100px;
+                }
+                
+                header ul li {
+                    display: inline;
+                    list-style-type: none;
+                    text-transform: capitalize;
+                    font-size: 14px;
+                    padding: 30px;
+                }
+                
+                header ul {
+                    margin-right: 100px;
+                }
+                
+                #hero {
+                    width: 100%;
+                }
+                
+                .list {
+                    background-color: hsl(219, 30%, 18%);
+                }
+                
+                #second {
+                    margin-left: 130px;
+                    padding-top: 30px;
+                }
+                
+                .btn1 {
+                    background-color: hsl(198, 60%, 50%);
+                    width: 150px;
+                    padding: 5px;
+                    border-radius: 20px;
+                    margin: auto;
+                }
+                
+                #profile {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100px;
+                }
+                
+                .foot {
+                    display: flex!important;
+                }
+                
+                footer {
+                    background-color: hsl(216, 53%, 9%);
+                    padding-top: 70px;
+                }
+                
+                #icon {
+                    height: 30px;
+                    margin-right: 20px;
+                }
+                
+                #access {
+                    position: relative;
+                    bottom: -90px;
+                }
+                
+                @media(max-width: 420px) {
+                    header ul li {
+                        display: none;
+                    }
+                    .btn1 {
+                        width: 90%!important;
+                        padding: 10px;
+                    }
+                    #second {
+                        margin-left: 0px;
+                        padding-top: 80px;
+                    }
+                    #second div {
+                        padding: 20px;
+                    }
+                    input {
+                        width: 90%!important;
+                        margin-left: 0px!important;
+                        margin-bottom: 20px!important;
+                        padding: 10px;
+                    }
+                    .foot {
+                        display: block!important;
+                    }
+                }
